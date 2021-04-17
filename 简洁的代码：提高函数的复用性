@@ -1,0 +1,27 @@
+我软件开发的过程中，我对函数有了一些新的认识：函数的作用在于封装起一个可以经常使用的功能，经常使用的功能都写成相应的函数，这样，每当我们想要使用某个功能时，只需要调用相应的函数就好；
+
+
+这样不仅可以提高代码的复用性和简洁程度，还可以提升软件运行的效率
+
+
+不仅后端如此，前端也是一样的道理
+
+
+以一个经常用的时间函数为例：
+
+
+var timepickerOptions={
+use24hours:true;
+showMeridian:false;
+minView:0;
+template:false;
+showInputs:false;
+minuteStep:1;
+};
+如果这个页面上会用到多个时间控件的话，就需要为每个字段都写一遍这样的函数，而大部分内容都是重复的，为了避免这种啰嗦的情况，直接就把函数写好，下面直接调用即可：
+
+
+$("#Ipb").timepicker(timepickerOptions);
+$("#Ipe").timepicker(timepickerOptions);
+
+如果再有，就直接复制下来，改下ID就行。
