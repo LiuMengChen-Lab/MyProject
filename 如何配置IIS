@@ -1,0 +1,22 @@
+IIS就如同Tomcat，是微软提供的Web设备服务，因为与windows系统一样都属于微软的产品，所以不用安装，用的时候只需要配置一下就好。
+
+具体的配置步骤如下：
+
+第一步：打开控制面板
+
+第二步：点击“程序”
+
+第三步：点击“程序与功能”
+
+   第四步：点击“启用或关闭Windows功能”
+
+第五步：勾选internet information server和internet information server可承载的WEB核心及其项下的所有的项目
+
+最后点击确定，配置完成！
+
+
+
+
+      
+
+
